@@ -385,7 +385,7 @@ window.update()
 ### Main Program component
 fsconnect()
 while not user_has_quit:
-    soft_wait()
+    ###soft_wait()
     window.update_idletasks()
     ###window.after(2000, update_window)
     update_window()
